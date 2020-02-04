@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="66dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sensorNome"
+            android:textColor="#C20E0E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="BAR:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtBar"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:gravity="left"
+                android:text="0,00" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="PSI:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPsi"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:gravity="left"
+                android:text="0,00" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="KPA:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtKpa"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:gravity="left"
+                android:text="0,00" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
